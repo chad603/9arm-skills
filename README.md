@@ -42,6 +42,7 @@ List every `SKILL.md` in the repo:
 ### Engineering
 
 - **[debug-mantra](./skills/engineering/debug-mantra/SKILL.md)** — Four-mantra debugging discipline: reproduce → trace the fail path → falsify the hypothesis → cross-reference every breadcrumb. Recites verbatim at session start, then applies in order before any fix.
+- **[perf-hunt](./skills/engineering/perf-hunt/SKILL.md)** — Four-step performance discipline: name the figure of merit, get a stable measurement, attribute the cost to a layer and resource, then change one thing and prove the delta beats the noise. The correctness sibling of debug-mantra, for the "it's too slow / it regressed / it's below roofline" half of systems work.
 - **[post-mortem](./skills/engineering/post-mortem/SKILL.md)** — Write the canonical engineering record of a fixed bug — root cause, mechanism, fix, validation, how it slipped through. Engineer-audience; refuses to draft without a reliable repro, known cause, and validated fix.
 - **[scrutinize](./skills/engineering/scrutinize/SKILL.md)** — Outsider-perspective end-to-end review of a plan, PR, or code change. Questions intent (is there a simpler way?), traces the actual code path, and verifies the change does what it claims. Output is concise, actionable, with rationale.
 
