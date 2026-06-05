@@ -1,8 +1,8 @@
 {
   "name": "9arm-skills",
   "skills": [
+    "./skills/engineering/break-it",
     "./skills/engineering/debug-mantra",
-    "./skills/engineering/perf-hunt",
     "./skills/engineering/post-mortem",
     "./skills/engineering/scrutinize",
     "./skills/productivity/management-talk"
